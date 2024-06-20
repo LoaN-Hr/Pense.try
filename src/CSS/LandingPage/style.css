@@ -1,3 +1,7 @@
+html, body {
+    background-color: #ebb400;
+}
+
 .container {
     width: 100vw;
     height: 100vh;
@@ -10,11 +14,13 @@
 }
 
 .container__img {
-    width: 35vw;
+    width: 450px;
+    height: 450px;
 }
 
 .container__img img{
-    width: 35vw;
+    width: 100%;
+    
 }
 
 .container__box {
@@ -27,7 +33,7 @@
 }
 
 .container__text h1{
-    color: #000;
+    color: var(--black-primary);
     font-size: 6rem;
 }
 
@@ -41,7 +47,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .container__btn p strong {
@@ -53,7 +59,7 @@
 }
 
 .container__btn a {
-    background-color: #000;
+    background-color: var(--black-primary);
     font-size: 1.4rem;
     font-family: var(--font-primary);
     font-weight: bold;
@@ -64,9 +70,9 @@
 }
 
 .container__btn a:hover {
-    transition: 700ms;
-    transform: scale(1.1);
-    box-shadow: 0 0 15px 5px #ffc400;
+    transition: 800ms;
+    transform: scale(1.2);
+    box-shadow: 4px 4px 1px var(--white-primary);
 }
 
 @media screen and (max-width: 800px) {
@@ -76,7 +82,8 @@
     }
 
     .container__img {
-        width: 90vw;
+        width: 350px;
+        height: 350px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -89,6 +96,10 @@
     .container__box {
         margin-top: 0;
         gap: 2rem;
+    }
+
+    .container__btn{
+        justify-content: space-evenly;
     }
 
 }
