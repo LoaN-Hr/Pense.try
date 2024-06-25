@@ -3,8 +3,17 @@
 :root {
     --font-primary: "Hammersmith One", sans-serif;
 
+    --bg-primary: #000;
+    --bg-secondary: #FFF;
+
+    --color-tertiary: #ab12d1;
+
     --black-primary: #000000;
     --black-shadows: rgba(0, 0, 0, 0.404);
 
     --white-primary: #FFF;
+
+    --font-color-one: #FFF;
+    --font-color-two: #000;
+
 }

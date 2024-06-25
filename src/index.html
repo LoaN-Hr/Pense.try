@@ -8,20 +8,37 @@
 
     <link rel="stylesheet" href="/src/CSS/reset.css">
     <link rel="stylesheet" href="/src/CSS/variables.css">
+    <link rel="stylesheet" href="/src/CSS/nav.css">
     <link rel="stylesheet" href="/src/CSS/MainSite/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="nav-list">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About me</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
                 </ul>
             </div>
+            
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="/src/img/ImgNavgation/menu_white_36dp.svg" alt=""></button>
+            </div>
         </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+
+        </div>
     </header>
     
+    <script src="/src/JS/navbar-JS/nav.js"></script>
 </body>
 </html>

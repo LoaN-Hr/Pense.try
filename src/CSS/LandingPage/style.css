@@ -1,5 +1,6 @@
 html, body {
-    background-color: #ebb400;
+    background-color: var(--bg-primary);
+    color: var(--white-primary)
 }
 
 .container {
@@ -16,11 +17,12 @@ html, body {
 .container__img {
     width: 450px;
     height: 450px;
+    box-shadow: 0 0 10px var(--color-tertiary);
 }
 
 .container__img img{
     width: 100%;
-    
+
 }
 
 .container__box {
@@ -33,7 +35,7 @@ html, body {
 }
 
 .container__text h1{
-    color: var(--black-primary);
+    color: var(--white-primary);
     font-size: 6rem;
 }
 
@@ -59,12 +61,12 @@ html, body {
 }
 
 .container__btn a {
-    background-color: var(--black-primary);
+    background-color: var(--white-primary);
     font-size: 1.4rem;
     font-family: var(--font-primary);
     font-weight: bold;
     text-decoration: none;
-    color: #FFF;
+    color: var(--black-primary);
     padding: 0.5rem 1rem;
     border-radius: 1.5rem;
 }
@@ -72,7 +74,7 @@ html, body {
 .container__btn a:hover {
     transition: 800ms;
     transform: scale(1.2);
-    box-shadow: 4px 4px 1px var(--white-primary);
+    box-shadow: 4px 4px 1px var(--color-tertiary);
 }
 
 @media screen and (max-width: 800px) {
