@@ -1,4 +1,10 @@
 * {
     font-family: var(--font-primary);
+    background-color: rgb(0, 0, 0);
 }
 
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+}
