@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-}
-
 header {
-    background-color: #000000;
+    background-color: var(--bg-primary);
     position: fixed;
     width: 100vw;
 }
@@ -14,27 +8,31 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1rem 6rem;
+    background-color: var(--bg-primary);
 }
 
 .logo {
     display: flex;
     align-items: center;
+    background-color: var(--bg-primary);
 }
 
 .logo img {
     width: 150px;
+    background-color: var(--bg-primary);
 }
 
 .nav-list {
     display: flex;
     align-items: center;
-    
+    background-color: var(--bg-primary);
 }
 
 .nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
+    background-color: var(--bg-primary);
 }
 
 .nav-item {
@@ -47,6 +45,7 @@ header {
     color: #fff;
     font-weight: 100;
     font-family: var(--font-primary);
+    background-color: var(--bg-primary);
 }
 
 .mobile-menu-icon {
@@ -64,36 +63,34 @@ header {
     .nav-item {
         display: none;
     }
-    .login-button {
-        display: none;
-    }
     .mobile-menu-icon {
         display: block;
+        background-color: var(--bg-primary);
     }
     .mobile-menu-icon button {
         background-color: transparent;
         border: none;
         cursor: pointer;
     }
+    .mobile-menu-icon img {
+        background-color: var(--bg-primary);
+    }
     .mobile-menu ul {
         display: flex;
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
+        background-color: var(--bg-primary);
     }
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
-    }
-    .mobile-menu .login-button {
-        display: block;
-        padding: 1rem 2rem;
-    }
-    .mobile-menu .login-button button {
-        width: 100%;
+        background-color: var(--bg-primary);
     }
     .open {
         display: block;
+        background-color: var(--bg-primary);
+
     }
 }
 
