@@ -13,14 +13,14 @@ main {
 }
 
 .container__home__text {
-    width: 45vw;
+    width: 50vw;
     font-family: var(--font-primary);
     color: var(--font-color-one);
     text-align: center;
 }
 
 .container__home__text h1 {
-    font-size: 3.8rem;
+    font-size: 3.6em;
     font-weight: 400;
     padding: 0.2em 0;
 }
@@ -50,6 +50,9 @@ main {
 
 
 @media screen and (max-width: 1024px) {
+    .container__home__text{
+        width: 45vw;
+    }
     .container__home__text h1 {
         font-size: 2.4rem;
     }
@@ -63,7 +66,29 @@ main {
 }
 
 @media screen and (max-width: 730px) {
-
+    .container__home {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .container__home__text {
+        width: 90vw;
+        padding-bottom: 4em;
+    }
+    .container__home__text h1{
+        font-size: 2rem;
+    }
+    .container__home__text p {
+        font-size: 0.7em;
+    }
+    .container__home__img {
+        width: 90vw;
+        padding-bottom: 2em;
+    }
+    .container__img {
+        width: 300px;
+        height: 300px;
+    }
+     
 }
 
 
