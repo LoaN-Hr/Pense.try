@@ -13,20 +13,20 @@ main {
 }
 
 .container__home__text {
-    width: 50vw;
+    width: 55vw;
     font-family: var(--font-primary);
     color: var(--font-color-one);
     text-align: center;
 }
 
 .container__home__text h1 {
-    font-size: 3.6em;
+    font-size: 3em;
     font-weight: 400;
     padding: 0.2em 0;
 }
 
 .container__home__text p {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 200;
     letter-spacing: 1px;
     opacity: 80%;
@@ -51,10 +51,10 @@ main {
 
 @media screen and (max-width: 1024px) {
     .container__home__text{
-        width: 45vw;
+        width: 55vw;
     }
     .container__home__text h1 {
-        font-size: 2.4rem;
+        font-size: 2.2rem;
     }
     .container__home__text p {
         font-size: 0.8em;
