@@ -145,7 +145,15 @@ body, main {
     width: 50vw;
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 4em;
+}
+
+.container__us__box-1 {
+    justify-content: flex-end;
+}
+
+.container__us__box-2 {
+    justify-content: flex-start;
 }
 
 .container__us__cards .cards {
@@ -234,10 +242,26 @@ body, main {
 
 @media screen and (max-width: 730px) {
     .container__us__cards {
-        gap: 1em;
+        flex-direction: column;
+        gap: 2em;
     }
     .container__us__cards .cards {
-        width: 18vw;
-        height: 25vh;
+        width: 34vw;
+        height: 22vh;
     }
+    .box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+    .container__us__cards h1 {
+        font-size: 0.9em;
+        padding-top: 0.4em;
+    }
+    .container__us__cards p {
+        font-size: 0.6em;
+    }
+    
 }
