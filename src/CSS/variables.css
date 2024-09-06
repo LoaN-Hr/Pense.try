@@ -6,13 +6,13 @@
     --font-secondary: "Nunito Sans", sans-serif;
 
     --bg-primary: #000;
-    --bg-secondary: #e7e7e7;
+    --bg-secondary: #f1f1f1;
     --bg-tertiary: #191919;
 
     --color-tertiary: #8c52ff;
 
     --black-primary: #000000;
-    --black-shadows: rgb(0, 0, 0);
+    --black-shadows: rgba(0, 0, 0, 0.1);
 
     --white-primary: #FFF;
 
