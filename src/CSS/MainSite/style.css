@@ -1,4 +1,4 @@
-body, main {
+html, body, main {
     background-color: #000000;
     overflow-x: hidden;
 }
@@ -6,49 +6,42 @@ body, main {
 .container__home {
     width: 100vw;
     height: 100dvh;
-    background-color: var(--bg-primary);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    background-image: url("/src/img/ImgMain/img_home.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     box-shadow: 20px 0 20px var(--black-shadows);
 }
 
 .container__home__text {
-    width: 55vw;
+    width: 100vw;
     font-family: var(--font-primary);
     color: var(--font-color-one);
     text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    padding: 2.5em 0;
+    box-shadow: 0 0 10px #0000001e;
 }
 
 .container__home__text h1 {
-    font-size: 3em;
-    font-weight: 400;
-    padding: 0.2em 0;
+    font-size: 3.4em;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 0.1em 0;
+    color: #000000;
 }
 
 .container__home__text p {
     font-size: 1em;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 1px;
-    opacity: 80%;
+    color: #000000;
 }
-
-.container__home__img {
-    width: 45vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container__img {
-    width: 600px;
-    height: 600px;
-}
-
-.container__img img {
-    width: 100%;
-}
-
 
 @media screen and (max-width: 1024px) {
     .container__home__text{
@@ -60,23 +53,21 @@ body, main {
     .container__home__text p {
         font-size: 0.8em;
     }
-    .container__img {
-        width: 450px;
-        height: 450px;
-    }
 }
 
 @media screen and (max-width: 730px) {
     .container__home {
         flex-direction: column-reverse;
         justify-content: center;
+        background-image: url("/src/img/ImgMain/img_home_mobile.jpeg");
     }
     .container__home__text {
-        width: 90vw;
-        padding-bottom: 4em;
+        width: 100vw;
+        padding: 2em 0;
     }
     .container__home__text h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        font-weight: 300;
     }
     .container__home__text p {
         font-size: 0.7em;
@@ -423,9 +414,9 @@ body, main {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-color: #000000;
     }
 }
-
 
 .container__plans {
     background-color: var(--bg-secondary);
@@ -546,7 +537,7 @@ body, main {
     }
     .container__flat .flats {
         width: 80vw;
-        height: 70vh;
+        height: 68vh;
     }
     .flats h1 {
         font-size: 0.9em;
