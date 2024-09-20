@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/src/CSS/variables.css">
     <link rel="stylesheet" href="/src/CSS/nav.css">
     <link rel="stylesheet" href="/src/CSS/MainSite/style.css">
+    <link rel="stylesheet" href="/src/CSS/footer.css">
 
     <meta name="theme-color" content="#000000">
     <meta name="apple-mobile-web-app-status-bar-style" content="#75b529">
@@ -27,7 +28,7 @@
                 <ul>
                     <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link"> Sobre</a></li>
                 </ul>
             </div>
             
@@ -39,7 +40,7 @@
             <ul>
                 <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
             </ul>
 
         </div>
@@ -53,40 +54,56 @@
             </div>
         </section>
 
-        <section class="container__us">
+        <section class="container__us" id="sobre">
                 <div class="container__text">
-                    <h1>Quem somos?</h1>
+                    <h1>O Que é a Pense.try?</h1>
 
-                    <p>Somos a galera que vai levar seu negócio pro próximo nível com um site incrível. Não importa se você é pequeno ou grande, estamos aqui pra te ajudar a conquistar o mundo digital.
-                    </p>
+                    <p>A Pense.try é uma empresa de tecnologia que tira seu negócio do offline e joga no digital, criando sites incríveis e prontos para crescer. Mas a gente não para por aí! Temos uma parceria com a CoffCode, que manda muito bem em CRM para comércios, ajudando você a gerenciar suas vendas e clientes como um(a) chefe.</p>
+
+                    <p>Aqui, o foco é facilitar sua vida com soluções digitais completas. Quer um site top e ainda um sistema de gestão integrado? Deixa com a gente!</p>
                 </div>
 
-                <div class="container__us__cards">
-                    <div class="container__us__box-1 box">
-                        <div class="cards">
-                            <img src="./img/ImgMain/ImgCardsIcones/ILU__Globo.png" alt="">
-                            <h1>Websites</h1>
-                            <p>Criamos sites modernos e responsivos, adaptados para todas as plataformas, garantindo uma presença online profissional e eficiente para sua empresa.</p>
-                        </div>
-                        <div class="cards">
-                            <img src="./img/ImgMain/ImgCardsIcones/ILU__Pincel.png" alt="">
-                            <h1>Design Gráfico</h1>
-                            <p>Nossos designers criam identidades visuais únicas e atraentes, refletindo a essência da sua marca e encantando seu público.</p>
-                        </div>
+                <div class="container__us__box__cards">
+                    <div class="container__us__card">
+                        <a href=""><img src="/src/img/LOGO_Pensetry.png" alt=""></a>
+                        <h1>Precisa de um Site?</h1>
                     </div>
-                    <div class="container__us__box-2 box">
-                        <div class="cards">
-                            <img src="./img/ImgMain/ImgCardsIcones/ILU__Lampada.png" alt="">
-                            <h1>Consultoria</h1>
-                            <p>Oferecemos consultoria especializada para otimizar o uso da tecnologia em sua empresa, aumentando a eficiência e impulsionando seus resultados.</p>
-                        </div>
-                        <div class="cards">
-                            <img src="./img/ImgMain/ImgCardsIcones/ILU__Megafone.png" alt="">
-                            <h1>Marketing Digital</h1>
-                            <p>Desenvolvemos estratégias de marketing digital personalizadas para aumentar a visibilidade da sua marca e engajar seu público-alvo nas redes sociais.</p>
-                        </div>
+
+                    <div class="container__us__card">
+                        <a href=""><img src="/src/img/LOGO_CoffCode.png" alt=""></a>
+                        <h1>Precisa de um CRM?</h1>
                     </div>
                 </div>
+                
+        </section>
+
+        <section class="container__info">
+            <div class="container__services">
+
+                <h1>Quer um Site? A Gente Resolve!</h1>
+
+                <h2>O Guia Descomplicado do Seu Site</h2>
+
+                <div class="container__box__text">
+                    <h1>Chama no Zap e Deixa com a Gente!</h1>
+                    <p>Fale com a gente por mensagem, e-mail ou telefone. Conta o que você precisa e pronto, criamos um site personalizado do jeitinho que você quer.</p>
+                    <img src="./img/ImgMain/seta-services.png" alt="">
+                </div>
+                <div class="container__box__text p1">
+                    <h1>Criação de Graça, Porque Somos Legais!</h1>
+                    <p>Criar o site? Sem custo! A gente cuida de tudo: design, desenvolvimento e deixa seu site incrível.</p>
+                    <img src="./img/ImgMain/seta-services.png" alt="">
+                </div>
+                <div class="container__box__text">
+                    <h1>O Site é Seu, Mas Mora Com a Gente.</h1>
+                    <p>O site é feito pra você, mas fica hospedado com a gente. A Pense.try garante que ele esteja seguro e funcionando sempre.</p>
+                    <img src="./img/ImgMain/seta-services.png" alt="">
+                </div>
+                <div class="container__box__text p1">
+                    <h1>Paga um Troquinho, e a Gente Cuida de Tudo.</h1>
+                    <p>Para manter seu site no ar, você paga uma <a href="#PL">mensalidade</a>. Isso cobre tudo: hospedagem, manutenção e segurança.</p>
+                </div>
+            </div>
         </section>
 
         <section class="container__plans" id="PL">
@@ -99,7 +116,7 @@
                 <div class="flats">
                     <h1>Single</h1>
                     <p class="flats__descripition">Perfeito para sites pessoais</p>
-                    <p class="flats__price">R$<strong>89,90</strong>/mês*</p>
+                    <p class="flats__price">R$<strong>99,90</strong>/mês*</p>
                     <p class="flats__alerts">*Estimativa de gasto mensal durante 12 meses.<br> O plano é pago mensalmente</p>
                     <div>
                         <a href="https://buy.stripe.com/3cs8yy6JCfrG8QU288">Escolher plano</a>
