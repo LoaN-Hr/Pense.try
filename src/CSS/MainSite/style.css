@@ -170,7 +170,7 @@ html, body, main {
 
 @media screen and (max-width: 730px) {
     .container__us {
-        padding: 4em 1em 4em 1em;
+        padding: 6em 1em 4em 1em;
     }
     .container__text {
         width: 90vw;
@@ -189,12 +189,10 @@ html, body, main {
     }
     .container__us__card a img {
         width: 125px;
+        opacity: 100%;
     }
     .container__us__card h1 {
-        font-size: 1.2rem;
-    }
-    .container__us__card h2 {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
 
