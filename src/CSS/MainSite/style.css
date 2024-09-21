@@ -203,7 +203,7 @@ html, body, main {
     justify-content: center;
     flex-direction: column;
     color: var(--font-color-one);
-    padding: 4em 0;
+    padding: 4em 0 8em 0;
     color: var(--font-color-one);
 }
 

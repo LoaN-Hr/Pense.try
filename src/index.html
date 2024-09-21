@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/src/CSS/variables.css">
     <link rel="stylesheet" href="/src/CSS/nav.css">
     <link rel="stylesheet" href="/src/CSS/MainSite/style.css">
+    <link rel="stylesheet" href="/src/CSS/MainSite/stylecoffcode.css">
     <link rel="stylesheet" href="/src/CSS/footer.css">
 
     <meta name="theme-color" content="#000000">
@@ -26,9 +27,10 @@
             </div>
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#sobre" class="nav-link"> Sobre</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre nós</a></li>
+                    <li class="nav-item"><a href="#CT" class="nav-link">Contato</a></li>
                 </ul>
             </div>
             
@@ -38,16 +40,17 @@
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#home" class="nav-link">Início</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Sobre nós</a></li>
+                <li class="nav-item"><a href="#CT" class="nav-link">Contato</a></li>
             </ul>
 
         </div>
     </header>
 
     <main>
-        <section class="container__home">
+        <section class="container__home" id="home">
             <div class="container__home__text">
                 <h1>Bem-vindo a Pense.try</h1>
                 <p>Transforme sua presença online com pense.try!</p>
@@ -65,7 +68,7 @@
 
                 <div class="container__us__box__cards">
                     <div class="container__us__card">
-                        <a href=""><img src="/src/img/LOGO_Pensetry.png" alt=""></a>
+                        <a href="#CF"><img src="/src/img/LOGO_Pensetry.png" alt=""></a>
                         <h1>Precisa de um Site?</h1>
                     </div>
 
@@ -77,7 +80,7 @@
                 
         </section>
 
-        <section class="container__info">
+        <section class="container__info" id="CF">
             <div class="container__services">
 
                 <h1>Quer um Site? A Gente Resolve!</h1>
@@ -191,7 +194,7 @@
             </div>
         </section>
 
-        <section class="container__contact">
+        <section class="container__contact" id="CT">
             <div class="container__contact__network">
 
                 <h1>Entre em contato pelo</h1>
@@ -243,18 +246,18 @@
                 </div>
 
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="#home">Home</a></li>
                     <li><a href="">Projetos</a></li>
                     <li><a href="#PL">Planos</a></li>
                     <li><a href="">Galeria</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="#CT">Contato</a></li>
                 </ul>
                 
                 <ul>
                     <li><a href="">Modelo de Contrato</a></li>
                     <li><a href="">Termo de Uso</a></li>
                     <li><a href="">Política de Privacidade</a></li>
-                    <li><a href="">Como Funcionam Nossos Serviços?</a></li>
+                    <li><a href="#CF">Como Funcionam Nossos Serviços?</a></li>
                 </ul>
     
                 <div class="container__footer__contact">
@@ -274,5 +277,6 @@
     </footer>
     
     <script src="/src/JS/navbar-JS/nav.js"></script>
+    <script src="/src/JS/navbar-JS/scroll.js"></script>
 </body>
 </html>
