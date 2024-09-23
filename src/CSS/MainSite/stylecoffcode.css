@@ -75,13 +75,14 @@
     font-weight: 700;
     letter-spacing: 1px;
     font-family: var(--font-secondary);
+    text-align: center;
 }
 
 .container__coffcode__text__two p {
     font-size: 1rem;
     font-weight: 500;
     letter-spacing: 1px;
-    font-family: var(--font-secondary);
+    font-family: var(--font-secondary); 
 }
 
 .container__coffcode__social_midia {
