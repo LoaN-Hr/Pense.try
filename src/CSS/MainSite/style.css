@@ -125,11 +125,16 @@ html, body, main {
 }
 
 .container__us__box__cards {
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     padding: 1em 0;
+    background-image: url("/src/img/ImgMain/Img-bg-us.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 -20px 10px #000000;
 }
 
 .container__us__card {
@@ -139,6 +144,9 @@ html, body, main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
 }
 
 .container__us__card a img {
